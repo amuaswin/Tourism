@@ -110,6 +110,49 @@ function AutoLayoutExample() {
                         </Card>
                     </Col>
                 </Row>
+                <Row>
+                    <Col className="mt-4">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={mall} />
+                            <Card.Body>
+                                <Card.Title>Mall</Card.Title>
+                                <Card.Text>
+                                    a large enclosed shopping area from which traffic is excluded.
+                                </Card.Text>
+                                <Button variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+
+                    <Col className="mt-4">
+
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={theme} />
+                            <Card.Body>
+                                <Card.Title>Theme park</Card.Title>
+                                <Card.Text>
+                                    an amusement park in which the structures and settings are based on a central theme.
+                                </Card.Text>
+                                <Button variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+
+                    </Col>
+
+                    <Col className="mt-4">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={wl} />
+                            <Card.Body>
+                                <Card.Title>Wild life</Card.Title>
+                                <Card.Text>
+                                    Wildlife tourism, in its simplest sense, is interacting with wild animals in their natural habitat, either by actively (e.g. hunting/collection)
+                                </Card.Text>
+                                <Button variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
             </Container>
 
         </div >
