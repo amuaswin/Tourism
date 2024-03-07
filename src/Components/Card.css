@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 600px) {
 body {
-  margin-left: 60px;
+margin-top: 70px;
   /* background-image: url("/src/Components/images/g.jpg"); */
   background-size: cover;
   flex-wrap: wrap;
